@@ -1,6 +1,4 @@
-## Assignment #4 README
-
-### Assignment Overview:
+### Overview:
 For assignment 4, a client-server architechture was implemented in order to make use of CPU cores on different computers. The goal is to improve overall efficiency for when large numbers of files were being decrypted. Upon execution, a server obtains an IP address and port number, this information is printed to the terminal so that clients may use it to connect. If the server has multiple clients connected, it will run a FCFS scheduling algorithm to assign decryption tasks to them. The sockets that connected the client and server are then used for communication until the processes finish.
 
 ### Server Design and Implementation:
